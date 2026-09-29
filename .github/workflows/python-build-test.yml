@@ -29,6 +29,7 @@ jobs:
         run: |
           uv run --group dev pytest -q
 
+
   build-windows:
     name: Build Windows MSI
     runs-on: windows-latest
