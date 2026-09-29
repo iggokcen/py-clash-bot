@@ -124,6 +124,7 @@ def test_live_observer_utilities():
     assert any("Testing observer status" in m for m in logged)
 
 
+@pytest.mark.skip(reason="Gerekli simülatör dosyaları (external/clash-royale-simulator) depoda bulunmuyor (boyut optimizasyonu).")
 def test_sim_training_callback():
     import threading
 
